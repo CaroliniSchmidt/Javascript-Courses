@@ -1,0 +1,118 @@
+@media (width >= 300px) {}
+@media (width < 1000px) {}
+@media (640px <= width < 768px) {}
+
+:root {
+    --cor1: rgb(139, 191, 196);
+    --cor2: rgb(21, 72, 85);
+    --cor3: rgb(142, 142, 142);
+    --cor4: rgb(142, 142, 142);
+    --cor5: rgb(1, 176, 176);
+    --cor6: rgb(0, 139, 139);
+    --cor7: rgb(23, 23, 23);
+}
+body {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+h1 {
+    margin: 0;
+    margin-top: 150px;
+}
+#note {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: var(--cor5);
+    padding: 10px 20px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    border: 2px solid var(--cor6);
+}
+
+#box {
+    display: flex;
+    background-color: var(--cor1);
+    margin-top: 30px;
+    width: 650px;
+    height: 200px;
+    border: 2px solid var(--cor2);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--cor3);
+    transform: translateY(-0.25em);
+}
+.box-input{
+    display: flex;
+}
+p {
+    padding: 5px 20px;
+    font-size: 22px;
+    display: flex;
+    color: var(--cor7);
+    margin: auto;
+
+}
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text-input {
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid;
+    background-color: var(--cor1);
+    text-align: center;
+
+}
+
+#check-btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--cor2);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#check-btn:hover, #check-btn:focus {
+    background-color: var(--cor2);
+    color: aliceblue;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--cor3);
+    transform: translateY(-0.25em);
+}
+
+.result {
+    width: auto;
+    height: 10px;
+    font-size: 18px;
+    display: flex;
+    overflow-y: auto;
+    word-wrap: break-word;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 5px;
+  }
+  
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor6);
+    padding: 10px;
+    margin-top: 20px;
+    width: 100vw;
+
+}

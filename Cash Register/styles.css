@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020935;
+    color: #e0e0e0;
+
+}
+
+.cash-register {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 5px;
+    background-color: #00a2ff;
+    border: 1px solid #005e94;
+
+    margin: 50px;
+}
+
+#change-due {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #007fc8;
+    border: 1px solid #005e94;
+    background-size: cover;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+   
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: #333;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#cash-drawer {
+    width: 170px;
+    height: 234px;
+    background-color: #007fc8;
+    border: 1px solid #005e94;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 0px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 7px;
+}
